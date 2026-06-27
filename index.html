@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VedArcana – Vedic Astrology & Tarot</title>
+  <meta name="description" content="VedArcana – Vedic Astrology, Tarot Reading & Numerology by Sutirtha Banerjee, Kolkata." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-star">✦</span>
+        <span class="logo-text">VedArcana</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#zodiac">Zodiac</a></li>
+        <li><a href="#horoscope">Horoscope</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="stars-bg" id="starsBg"></div>
+    <div class="nebula nebula-1"></div>
+    <div class="nebula nebula-2"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow animate-fade-up">✦ Discover Your Cosmic Path ✦</p>
+      <h1 class="hero-title animate-fade-up delay-1">Ved<span class="gradient-text">Arcana</span></h1>
+      <div class="hero-astrologer animate-fade-up delay-2">
+        <div class="astrologer-badge">
+          <span class="astrologer-icon">🔮</span>
+          <div>
+            <p class="astrologer-name">Sutirtha Banerjee</p>
+            <p class="astrologer-title">Vedic Astrologer &amp; Tarot Reader · Kolkata</p>
+          </div>
+        </div>
+      </div>
+      <p class="hero-desc animate-fade-up delay-2">Unlock the mysteries of the universe through ancient Vedic wisdom. Explore your zodiac, get personalized tarot readings, and receive guidance written in the stars.</p>
+      <div class="hero-buttons animate-fade-up delay-3">
+        <a href="#zodiac" class="btn btn-primary">Explore Zodiac</a>
+        <a href="#horoscope" class="btn btn-outline">Read Horoscope</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ZODIAC SIGNS -->
+  <section class="section zodiac-section" id="zodiac">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <p class="section-label">The Twelve Signs</p>
+        <h2 class="section-title">Zodiac Signs</h2>
+        <p class="section-desc">Each zodiac sign carries unique energy, personality traits, and cosmic wisdom. Discover which sign resonates with your soul.</p>
+      </div>
+      <div class="zodiac-grid">
+        <div class="zodiac-card scroll-reveal" data-delay="0">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♈</div>
+          <h3 class="zodiac-name">Aries</h3>
+          <p class="zodiac-dates">Mar 21 – Apr 19</p>
+          <p class="zodiac-element fire">🔥 Fire</p>
+          <p class="zodiac-trait">Bold · Ambitious · Energetic</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="50">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♉</div>
+          <h3 class="zodiac-name">Taurus</h3>
+          <p class="zodiac-dates">Apr 20 – May 20</p>
+          <p class="zodiac-element earth">🌿 Earth</p>
+          <p class="zodiac-trait">Reliable · Patient · Devoted</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="100">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♊</div>
+          <h3 class="zodiac-name">Gemini</h3>
+          <p class="zodiac-dates">May 21 – Jun 20</p>
+          <p class="zodiac-element air">💨 Air</p>
+          <p class="zodiac-trait">Curious · Adaptable · Witty</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="150">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♋</div>
+          <h3 class="zodiac-name">Cancer</h3>
+          <p class="zodiac-dates">Jun 21 – Jul 22</p>
+          <p class="zodiac-element water">💧 Water</p>
+          <p class="zodiac-trait">Intuitive · Nurturing · Loyal</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="0">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♌</div>
+          <h3 class="zodiac-name">Leo</h3>
+          <p class="zodiac-dates">Jul 23 – Aug 22</p>
+          <p class="zodiac-element fire">🔥 Fire</p>
+          <p class="zodiac-trait">Charismatic · Bold · Generous</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="50">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♍</div>
+          <h3 class="zodiac-name">Virgo</h3>
+          <p class="zodiac-dates">Aug 23 – Sep 22</p>
+          <p class="zodiac-element earth">🌿 Earth</p>
+          <p class="zodiac-trait">Analytical · Kind · Precise</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="100">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♎</div>
+          <h3 class="zodiac-name">Libra</h3>
+          <p class="zodiac-dates">Sep 23 – Oct 22</p>
+          <p class="zodiac-element air">💨 Air</p>
+          <p class="zodiac-trait">Balanced · Graceful · Social</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="150">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♏</div>
+          <h3 class="zodiac-name">Scorpio</h3>
+          <p class="zodiac-dates">Oct 23 – Nov 21</p>
+          <p class="zodiac-element water">💧 Water</p>
+          <p class="zodiac-trait">Intense · Resourceful · Brave</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="0">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♐</div>
+          <h3 class="zodiac-name">Sagittarius</h3>
+          <p class="zodiac-dates">Nov 22 – Dec 21</p>
+          <p class="zodiac-element fire">🔥 Fire</p>
+          <p class="zodiac-trait">Adventurous · Free · Optimistic</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="50">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♑</div>
+          <h3 class="zodiac-name">Capricorn</h3>
+          <p class="zodiac-dates">Dec 22 – Jan 19</p>
+          <p class="zodiac-element earth">🌿 Earth</p>
+          <p class="zodiac-trait">Disciplined · Ambitious · Wise</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="100">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♒</div>
+          <h3 class="zodiac-name">Aquarius</h3>
+          <p class="zodiac-dates">Jan 20 – Feb 18</p>
+          <p class="zodiac-element air">💨 Air</p>
+          <p class="zodiac-trait">Innovative · Idealistic · Independent</p>
+        </div>
+        <div class="zodiac-card scroll-reveal" data-delay="150">
+          <div class="card-glow"></div>
+          <div class="zodiac-icon">♓</div>
+          <h3 class="zodiac-name">Pisces</h3>
+          <p class="zodiac-dates">Feb 19 – Mar 20</p>
+          <p class="zodiac-element water">💧 Water</p>
+          <p class="zodiac-trait">Compassionate · Artistic · Intuitive</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DAILY HOROSCOPE -->
+  <section class="section horoscope-section" id="horoscope">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <p class="section-label">Cosmic Guidance</p>
+        <h2 class="section-title">Daily Horoscope</h2>
+        <p class="section-desc">The stars align to bring you clarity. Read today's horoscope and let the universe show you the way.</p>
+      </div>
+      <div class="horoscope-tabs scroll-reveal">
+        <button class="tab-btn active" data-tab="aries-h">♈ Aries</button>
+        <button class="tab-btn" data-tab="taurus-h">♉ Taurus</button>
+        <button class="tab-btn" data-tab="gemini-h">♊ Gemini</button>
+        <button class="tab-btn" data-tab="leo-h">♌ Leo</button>
+        <button class="tab-btn" data-tab="scorpio-h">♏ Scorpio</button>
+        <button class="tab-btn" data-tab="pisces-h">♓ Pisces</button>
+      </div>
+      <div class="horoscope-panels">
+        <div class="horoscope-panel active" id="aries-h">
+          <div class="horoscope-card scroll-reveal">
+            <div class="h-header">
+              <span class="h-symbol">♈</span>
+              <div class="h-info">
+                <h3>Aries</h3>
+                <p class="h-date">June 27, 2026</p>
+              </div>
+              <div class="h-rating">★★★★<span class="dim">★</span></div>
+            </div>
+            <p class="h-text">Today Mars empowers you with unstoppable energy. A bold decision you've been hesitating over finally becomes crystal clear. Trust your instincts — your pioneering spirit leads to a breakthrough in your personal or professional life. Relationships flourish when you show vulnerability alongside your strength.</p>
+            <div class="h-aspects">
+              <div class="aspect"><span>💼</span><div><small>Career</small><strong>Excellent</strong></div></div>
+              <div class="aspect"><span>❤️</span><div><small>Love</small><strong>Strong</strong></div></div>
+              <div class="aspect"><span>🍀</span><div><small>Lucky No.</small><strong>7</strong></div></div>
+              <div class="aspect"><span>🌈</span><div><small>Lucky Color</small><strong>Crimson</strong></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="horoscope-panel" id="taurus-h">
+          <div class="horoscope-card scroll-reveal">
+            <div class="h-header">
+              <span class="h-symbol">♉</span>
+              <div class="h-info">
+                <h3>Taurus</h3>
+                <p class="h-date">June 27, 2026</p>
+              </div>
+              <div class="h-rating">★★★★★</div>
+            </div>
+            <p class="h-text">Venus blesses you with abundance today. Financial opportunities present themselves through unexpected conversations. Your natural patience is your greatest asset — resist the urge to rush. This is a beautiful day for creative pursuits and deepening bonds with those you love most deeply.</p>
+            <div class="h-aspects">
+              <div class="aspect"><span>💼</span><div><small>Career</small><strong>Good</strong></div></div>
+              <div class="aspect"><span>❤️</span><div><small>Love</small><strong>Exceptional</strong></div></div>
+              <div class="aspect"><span>🍀</span><div><small>Lucky No.</small><strong>3</strong></div></div>
+              <div class="aspect"><span>🌈</span><div><small>Lucky Color</small><strong>Emerald</strong></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="horoscope-panel" id="gemini-h">
+          <div class="horoscope-card scroll-reveal">
+            <div class="h-header">
+              <span class="h-symbol">♊</span>
+              <div class="h-info">
+                <h3>Gemini</h3>
+                <p class="h-date">June 27, 2026</p>
+              </div>
+              <div class="h-rating">★★★<span class="dim">★★</span></div>
+            </div>
+            <p class="h-text">Mercury's influence sharpens your communication skills to a razor's edge. Your words carry extraordinary power today — use them wisely. A conversation you've been avoiding can no longer wait. Social connections open doors that seemed firmly shut just days ago.</p>
+            <div class="h-aspects">
+              <div class="aspect"><span>💼</span><div><small>Career</small><strong>Great</strong></div></div>
+              <div class="aspect"><span>❤️</span><div><small>Love</small><strong>Fair</strong></div></div>
+              <div class="aspect"><span>🍀</span><div><small>Lucky No.</small><strong>11</strong></div></div>
+              <div class="aspect"><span>🌈</span><div><small>Lucky Color</small><strong>Yellow</strong></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="horoscope-panel" id="leo-h">
+          <div class="horoscope-card scroll-reveal">
+            <div class="h-header">
+              <span class="h-symbol">♌</span>
+              <div class="h-info">
+                <h3>Leo</h3>
+                <p class="h-date">June 27, 2026</p>
+              </div>
+              <div class="h-rating">★★★★★</div>
+            </div>
+            <p class="h-text">The Sun blazes in your favor — this is your moment to shine! A leadership opportunity arrives that showcases your natural authority. Your creative fire inspires everyone around you. Step into the spotlight with confidence; the universe is applauding your every move today.</p>
+            <div class="h-aspects">
+              <div class="aspect"><span>💼</span><div><small>Career</small><strong>Outstanding</strong></div></div>
+              <div class="aspect"><span>❤️</span><div><small>Love</small><strong>Passionate</strong></div></div>
+              <div class="aspect"><span>🍀</span><div><small>Lucky No.</small><strong>1</strong></div></div>
+              <div class="aspect"><span>🌈</span><div><small>Lucky Color</small><strong>Gold</strong></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="horoscope-panel" id="scorpio-h">
+          <div class="horoscope-card scroll-reveal">
+            <div class="h-header">
+              <span class="h-symbol">♏</span>
+              <div class="h-info">
+                <h3>Scorpio</h3>
+                <p class="h-date">June 27, 2026</p>
+              </div>
+              <div class="h-rating">★★★★<span class="dim">★</span></div>
+            </div>
+            <p class="h-text">Pluto stirs the depths of your psyche, revealing truths you've long suspected. A transformation is underway — embrace it rather than resist. Your investigative instincts uncover a hidden opportunity. Emotional honesty tonight strengthens your most important bond.</p>
+            <div class="h-aspects">
+              <div class="aspect"><span>💼</span><div><small>Career</small><strong>Intense</strong></div></div>
+              <div class="aspect"><span>❤️</span><div><small>Love</small><strong>Deep</strong></div></div>
+              <div class="aspect"><span>🍀</span><div><small>Lucky No.</small><strong>8</strong></div></div>
+              <div class="aspect"><span>🌈</span><div><small>Lucky Color</small><strong>Burgundy</strong></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="horoscope-panel" id="pisces-h">
+          <div class="horoscope-card scroll-reveal">
+            <div class="h-header">
+              <span class="h-symbol">♓</span>
+              <div class="h-info">
+                <h3>Pisces</h3>
+                <p class="h-date">June 27, 2026</p>
+              </div>
+              <div class="h-rating">★★★★<span class="dim">★</span></div>
+            </div>
+            <p class="h-text">Neptune casts a dreamlike glow over your day. Creative inspiration flows effortlessly — capture every idea. Your empathy reaches a heightened state, making you a beacon for those who need guidance. Trust your intuition above all logic today; the universe speaks through your feelings.</p>
+            <div class="h-aspects">
+              <div class="aspect"><span>💼</span><div><small>Career</small><strong>Creative</strong></div></div>
+              <div class="aspect"><span>❤️</span><div><small>Love</small><strong>Dreamy</strong></div></div>
+              <div class="aspect"><span>🍀</span><div><small>Lucky No.</small><strong>22</strong></div></div>
+              <div class="aspect"><span>🌈</span><div><small>Lucky Color</small><strong>Sea Blue</strong></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES & PRICING -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header scroll-reveal">
+        <p class="section-label">VedArcana – Services &amp; Pricing</p>
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-desc">All sessions available via WhatsApp Chat, Audio Call, or Video Call. Advance payment required before confirmation.</p>
+      </div>
+
+      <!-- TAROT READING -->
+      <div class="pricing-category scroll-reveal">
+        <div class="pricing-cat-header">
+          <span class="pricing-cat-icon">🃏</span>
+          <h3 class="pricing-cat-title">Tarot Reading</h3>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card scroll-reveal">
+            <div class="pricing-badge-icon">✨</div>
+            <div class="pricing-body">
+              <h4>1 Question (Yes/No)</h4>
+              <p>Quick, clear answer to your most pressing yes-or-no question through the wisdom of the cards.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag">₹301</div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-outline btn-sm">Book Now</a>
+            </div>
+          </div>
+          <div class="pricing-card scroll-reveal">
+            <div class="pricing-badge-icon">✨</div>
+            <div class="pricing-body">
+              <h4>1 Question – Past, Present &amp; Future</h4>
+              <p>A deep 3-layer reading exploring where you've been, where you are, and where you're headed.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag">₹1,101</div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-outline btn-sm">Book Now</a>
+            </div>
+          </div>
+          <div class="pricing-card featured scroll-reveal">
+            <div class="featured-badge">✦ Most Detailed</div>
+            <div class="pricing-badge-icon">✨</div>
+            <div class="pricing-body">
+              <h4>Full Prediction with Remedies</h4>
+              <p>Comprehensive reading of your situation with actionable remedies and guidance to overcome obstacles.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag">₹2,001</div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-primary btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VEDIC ASTROLOGY -->
+      <div class="pricing-category scroll-reveal">
+        <div class="pricing-cat-header">
+          <span class="pricing-cat-icon">🌟</span>
+          <h3 class="pricing-cat-title">Vedic Astrology</h3>
+        </div>
+        <div class="pricing-grid pricing-grid-2">
+          <div class="pricing-card scroll-reveal">
+            <div class="pricing-badge-icon">🌟</div>
+            <div class="pricing-body">
+              <h4>Vedic Kundli Making</h4>
+              <p>Your complete birth chart prepared according to classical Vedic methods with detailed planetary analysis.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag">₹501</div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-outline btn-sm">Book Now</a>
+            </div>
+          </div>
+          <div class="pricing-card featured scroll-reveal">
+            <div class="featured-badge">✦ Marriage Compatibility</div>
+            <div class="pricing-badge-icon">🌟</div>
+            <div class="pricing-body">
+              <h4>Ashtakoot Vichar</h4>
+              <p>Traditional 8-point horoscope matching system to assess compatibility and blessings for marriage.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag">₹1,501</div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-primary btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONSULTATION -->
+      <div class="pricing-category scroll-reveal">
+        <div class="pricing-cat-header">
+          <span class="pricing-cat-icon">📞</span>
+          <h3 class="pricing-cat-title">Consultation</h3>
+        </div>
+        <div class="pricing-grid pricing-grid-2">
+          <div class="pricing-card scroll-reveal">
+            <div class="pricing-badge-icon">📞</div>
+            <div class="pricing-body">
+              <h4>Call Consultation</h4>
+              <p>Live voice consultation with Sutirtha Banerjee. Ask anything about your chart, career, relationships, or future.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag price-per-min">₹31 <span>/min</span></div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-outline btn-sm">Book Now</a>
+            </div>
+          </div>
+          <div class="pricing-card featured scroll-reveal">
+            <div class="featured-badge">✦ Face-to-Face</div>
+            <div class="pricing-badge-icon">📹</div>
+            <div class="pricing-body">
+              <h4>Video Consultation</h4>
+              <p>Personal face-to-face session over video call for an immersive and interactive cosmic guidance experience.</p>
+            </div>
+            <div class="pricing-footer">
+              <div class="price-tag price-per-min">₹51 <span>/min</span></div>
+              <a href="https://wa.me/919038414366" target="_blank" class="btn btn-primary btn-sm">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOOKING INFO -->
+      <div class="booking-info scroll-reveal">
+        <div class="booking-info-inner">
+          <h3 class="booking-title">✦ Booking Information</h3>
+          <div class="booking-grid">
+            <a href="mailto:vedarcana.astro@gmail.com" class="booking-item">
+              <span class="booking-icon">📧</span>
+              <div>
+                <small>Email</small>
+                <strong>vedarcana.astro@gmail.com</strong>
+              </div>
+            </a>
+            <a href="https://wa.me/919038414366" target="_blank" class="booking-item">
+              <span class="booking-icon">📱</span>
+              <div>
+                <small>WhatsApp / Call</small>
+                <strong>+91 9038414366</strong>
+              </div>
+            </a>
+          </div>
+          <p class="booking-note">All sessions are available via WhatsApp Chat, Audio Call, or Video Call. Advance payment is required before confirmation of the appointment.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STATS BANNER -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item scroll-reveal">
+          <div class="stat-number" data-target="50000">0</div>
+          <div class="stat-label">Readings Completed</div>
+        </div>
+        <div class="stat-item scroll-reveal">
+          <div class="stat-number" data-target="12">0</div>
+          <div class="stat-label">Zodiac Signs Covered</div>
+        </div>
+        <div class="stat-item scroll-reveal">
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-label">% Satisfaction Rate</div>
+        </div>
+        <div class="stat-item scroll-reveal">
+          <div class="stat-number" data-target="15">0</div>
+          <div class="stat-label">Years of Cosmic Experience</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-text scroll-reveal">
+          <p class="section-label">Connect With Us</p>
+          <h2 class="section-title">Begin Your<br /><span class="gradient-text">Cosmic Journey</span></h2>
+          <p class="section-desc">The stars have been waiting for you. Reach out and let us guide you through the celestial map of your life.</p>
+          <div class="contact-info">
+            <div class="info-item"><span class="info-icon">👤</span><span>Sutirtha Banerjee</span></div>
+            <div class="info-item"><span class="info-icon">✉</span><a href="mailto:vedarcana.astro@gmail.com" style="color:inherit">vedarcana.astro@gmail.com</a></div>
+            <div class="info-item"><span class="info-icon">☎</span><a href="tel:+919038414366" style="color:inherit">+91 9038414366</a></div>
+            <div class="info-item"><span class="info-icon">📍</span><span>Kolkata, West Bengal</span></div>
+            <div class="info-item"><span class="info-icon">💬</span><span>Available via WhatsApp / Call / Video</span></div>
+          </div>
+        </div>
+        <form class="contact-form scroll-reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="nameField">Your Name</label>
+            <input type="text" id="nameField" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="emailField">Email Address</label>
+            <input type="email" id="emailField" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="signField">Zodiac Sign</label>
+            <select id="signField">
+              <option value="">Select your sign...</option>
+              <option value="aries">♈ Aries</option>
+              <option value="taurus">♉ Taurus</option>
+              <option value="gemini">♊ Gemini</option>
+              <option value="cancer">♋ Cancer</option>
+              <option value="leo">♌ Leo</option>
+              <option value="virgo">♍ Virgo</option>
+              <option value="libra">♎ Libra</option>
+              <option value="scorpio">♏ Scorpio</option>
+              <option value="sagittarius">♐ Sagittarius</option>
+              <option value="capricorn">♑ Capricorn</option>
+              <option value="aquarius">♒ Aquarius</option>
+              <option value="pisces">♓ Pisces</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="msgField">Your Message</label>
+            <textarea id="msgField" placeholder="What cosmic guidance are you seeking?" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message ✦</button>
+          <div class="form-success" id="formSuccess">✦ Message sent! The stars will guide our response. ✦</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-star">✦</span>
+            <span class="logo-text">VedArcana</span>
+          </div>
+          <p>Vedic Astrology &amp; Tarot by Sutirtha Banerjee, Kolkata. Connecting souls with the cosmos through ancient wisdom.</p>
+        </div>
+        <div class="footer-links-wrap">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <ul>
+              <li><a href="#zodiac">Zodiac Signs</a></li>
+              <li><a href="#horoscope">Daily Horoscope</a></li>
+              <li><a href="#services">Services</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#services">Tarot Reading</a></li>
+              <li><a href="#services">Vedic Astrology</a></li>
+              <li><a href="#services">Consultation</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="https://wa.me/919038414366" target="_blank">WhatsApp</a></li>
+              <li><a href="mailto:vedarcana.astro@gmail.com">Email Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 VedArcana by Sutirtha Banerjee, Kolkata. All rights reserved. Made with ✦ and stardust.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a class="whatsapp-btn" href="https://wa.me/919038414366" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="30" height="30">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+      <path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.557 4.126 1.526 5.864L0 24l6.326-1.487A11.948 11.948 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.857 0-3.6-.5-5.107-1.375L2 22l1.4-4.757A9.951 9.951 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/>
+    </svg>
+    <span class="whatsapp-label">Chat Now</span>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
